@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prof. G. B. Sambare | PCCoE</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="sambare_sir_web.css">
+  
+</head>
+<body class="bg-white text-gray-900">
+  <header class="flex justify-between items-center px-8 py-4 border-b shadow-sm sticky top-0 bg-white z-10">
+    <h1 class="text-2xl font-serif font-bold">Prof. G. B. Sambare</h1>
+    <nav class="space-x-6 font-medium">
+      <a href="sambhare_sir_web.html" class="nav-link-active">Home</a>
+      <a href="research.html" class="nav-link-custom">Research</a>
+      <a href="teaching.html" class="nav-link-custom">Teaching</a>
+      <a href="publications.html" class="nav-link-custom">Publications</a>
+      <a href="awards.html" class="nav-link-custom">Awards</a>
+      <a href="students.html" class="nav-link-custom">Students</a>
+      <a href="contact.html" class="nav-link-custom">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="grid grid-cols-1 md:grid-cols-2 p-12 items-center gap-8 animate-fade-in-up">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">Dr. Govinda B. Sambare</h2>
+        <p class="text-lg font-semibold">Associate Dean – Faculty Development & Welfare</p>
+        <p class="text-md mt-2">Deputy HoD, Computer Engineering Dept., PCCoE</p>
+        <p class="mt-4 text-gray-700">
+          With 32+ years of academic and research experience, Dr. Sambare has published 80+ international journal papers
+          in areas like IoT, Wireless Networks, Blockchain, Cloud Security, and AI. He has mentored numerous postgraduate
+          and undergraduate students and has served as BoS member, NBA Coordinator, and SIG Incharge.
+        </p>
+        <p class="mt-4 text-sm text-gray-600">PhD (Computer Engg), M.E. (CS) – BITS Pilani, B.E. (CSE)</p>
+        <a href="teaching.html" role="button" class="inline-block mt-6 px-5 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">View Full Profile</a>
+      </div>
+      <img src="sambhare.png" alt="Dr. G. B. Sambhare photo" class="rounded-2xl shadow-xl w-full max-w-xs mx-auto animate-fade-in-up" style="animation-delay: 0.3s;" />
+    </section>
+  </main>
+
+  <footer class="footer-section text-center">
+    <p>&copy; <span id="current-year"></span> Prof. G. B. Sambare. All rights reserved.</p>
+  </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>

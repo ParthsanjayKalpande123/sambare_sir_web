@@ -1,0 +1,55 @@
+ 
+    .smooth-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .smooth-card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+     .mini-card {
+    border-radius: 0.75rem;
+    padding: 1rem;
+    background-color: #f3f4f6; /* light gray - Tailwind gray-100 */
+    color: #111827; /* dark text */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .mini-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+  .mini-card p.font-medium {
+    color: #1f2937; /* gray-800 for title */
+    font-weight: 600;
+  }
+  .mini-card .student-name {
+    font-size: 0.85rem;
+    color: #4b5563; /* gray-600 for student names */
+    margin-top: 0.25rem;
+  }
+    .student-name {
+      font-size: 0.85rem;
+      color: #374151; /* gray-700 */
+      margin-top: 0.25rem;
+    }
+    .hero-section {
+            padding: 4rem 0;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .hero-section h1 {
+            color: #312e81; /* Dark indigo */
+            font-weight: 800;
+            font-size: 3rem; /* display-4 equivalent */
+            margin-bottom: 1rem;
+        }
+        .hero-section p {
+            color: #555;
+            font-size: 1.25rem; /* lead equivalent */
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+ 
